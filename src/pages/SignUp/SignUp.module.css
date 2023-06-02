@@ -1,0 +1,138 @@
+.root {
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 400px) {
+  .root {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .root {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .root {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .root {
+    margin-left: 50px;
+    margin-right: 500px;
+  }
+}
+
+.headerText {
+  font-size: 2em;
+}
+.report {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgb(15, 128, 15);
+}
+.input {
+  display: block;
+  margin: 10px auto 20px auto;
+  border: 1px solid #5f9ea0;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border-radius: 15px;
+  padding-left: 20px;
+  font-size: 0.9em;
+}
+
+.password_input {
+  position: relative;
+  display: block;
+  margin: 10px auto 20px auto;
+  border: 1px solid #5f9ea0;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border-radius: 15px;
+  padding-left: 20px;
+  font-size: 0.9em;
+}
+.submit {
+  display: block;
+  margin: 10px auto;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  border: none;
+  background-color: cadetblue;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.submit:hover {
+  background-color: whitesmoke;
+  color: cadetblue;
+  border: 1px solid cadetblue;
+}
+
+.option {
+  gap: 50px;
+  display: inline-flex;
+}
+
+.change {
+  gap: 15px;
+  display: inline-flex;
+  margin-bottom: 30px;
+}
+
+.text {
+  color: cadetblue;
+  text-decoration: none;
+  background-color: whitesmoke;
+}
+
+.text:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  margin-top: 25px;
+  color: cadetblue;
+  cursor: pointer;
+}
+
+.user {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  outline: none;
+  display: block;
+}
+
+.error {
+  background-color: red;
+  color: #fff;
+  font-weight: 600;
+}
+
+.userIcon {
+  width: 50px;
+  height: auto;
+  color: #fff;
+  display: inline-block;
+}

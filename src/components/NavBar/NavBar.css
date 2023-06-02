@@ -1,0 +1,67 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: cadetblue;
+  height: 65px;
+  width: 100%;
+  padding: 0 20px;
+  position: sticky;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+.ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: whitesmoke;
+  color: cadetblue;
+  transition: 0.5s;
+}
+
+.btn-auth{
+  background: whitesmoke;
+  color: cadetblue;
+  transition: 0.5s;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+.nav-title {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo:hover{
+color: whitesmoke;
+text-decoration: none;
+}
+
+.auth{
+  cursor: pointer;
+}
+
+.logout{
+gap: 10px;
+}
